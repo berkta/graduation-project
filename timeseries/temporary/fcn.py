@@ -2,7 +2,7 @@
 # Sine generator with and without noise (FCN three layers 10 neuron)#
 # Model predicts sine wave by taking one by one x data as input.    #
 # Process is done simultaneously for clean and noisy sine wave.     #
-# Author:     Mehmet KAPSON     23.11.2019                          #
+# Author:                                                           #
 #-------------------------------------------------------------------#
 import torch
 import torch.nn as nn
