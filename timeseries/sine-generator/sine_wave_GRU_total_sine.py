@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------#
 # Sine generator with and without noise (GRU)                       #
-# Author:     Mehmet KAPSON     25.11.2019                          #
+# Author:                                                           #
 #-------------------------------------------------------------------#
 import torch
 import torch.nn as nn
