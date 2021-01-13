@@ -1,7 +1,3 @@
-#-------------------------------------------------------------------#
-# Sine generator with and without noise (FCN three layers 10 neuron)#
-# Author:                                                           #
-#-------------------------------------------------------------------#
 import torch
 import torch.nn as nn
 import numpy as np
