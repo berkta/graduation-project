@@ -30,8 +30,8 @@ data_transforms = {
     ]),
 }
 
-#data_dir = r'C:\Users\Mehmet\Desktop\mobileNets\intel-image-classification'  ################
-data_dir = r'C:\Users\Mehmet\Desktop\mobileNets\animals'
+#data_dir = r'C:\Users\berkta\Desktop\mobileNets\intel-image-classification'  ################
+data_dir = r'C:\Users\berkta\Desktop\mobileNets\animals'
 image_datasets = {x: datasets.ImageFolder(os.path.join(data_dir, x),
                                           data_transforms[x])
                   for x in ['train', 'val']}
