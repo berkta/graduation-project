@@ -2,8 +2,8 @@ import os
 import glob
 import shutil
 
-data_path = glob.glob("C:\\Users\\Mehmet\\Desktop\\ANN\\img_dataset\\animals10\\raw-img\\*") 
-save_path = "C:\\Users\\Mehmet\\Desktop\\ANN\\img_dataset\\animals10" 
+data_path = glob.glob("C:\\Users\\berkta\\Desktop\\ANN\\img_dataset\\animals10\\raw-img\\*") 
+save_path = "C:\\Users\\berkta\\Desktop\\ANN\\img_dataset\\animals10" 
 
 for i in range(len(data_path)): 
     folderName = data_path[i]
