@@ -1,9 +1,3 @@
-#-------------------------------------------------------------------#
-# Sine generator with and without noise (GRU)                       #
-# Model predicts sine wave by taking one by one x data as input.    #
-# Process is done simultaneously for clean and noisy sine wave.     #
-# Author:                                                           #
-#-------------------------------------------------------------------#
 import torch
 import torch.nn as nn
 import numpy as np
