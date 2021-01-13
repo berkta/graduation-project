@@ -1,16 +1,3 @@
-#-------------------------------------------------------------------#
-# CODE SUMMARY:                                                     #
-# 4 Neural Networks are created to show the effects of network size #
-# and activation functions. MNIST dataset is used. Accuracy graph   #
-# is saved as a png file. Also; accuracies and time takens for all  #
-# NNs are saved to an excel file.                                   #
-# WARNING!:                                                         #
-# "XlsxWriter" package is required! Use either this command         #
-# "pip install xlsxwriter" or "conda install -c anaconda xlsxwriter"#
-# to install it.                                                    #
-#                                                                   #
-# Author:     Mehmet KAPSON     20.10.2019                          #
-#-------------------------------------------------------------------#
 import torch
 import torchvision
 import torchvision.transforms as transforms
