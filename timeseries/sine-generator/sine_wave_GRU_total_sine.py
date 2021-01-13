@@ -1,7 +1,3 @@
-#-------------------------------------------------------------------#
-# Sine generator with and without noise (GRU)                       #
-# Author:                                                           #
-#-------------------------------------------------------------------#
 import torch
 import torch.nn as nn
 import numpy as np
